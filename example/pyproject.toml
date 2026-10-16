@@ -1,0 +1,10 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "trptc",
+]
+
+[tool.uv.sources]
+trptc = { git = "https://github.com/BalthazarApp/trptc" }
