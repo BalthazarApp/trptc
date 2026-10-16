@@ -1,7 +1,7 @@
 [project]
 name = "trptc"
 version = "0.1.0"
-description = "Sum two values."
+description = "Sum and multiply two values."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
