@@ -12,6 +12,14 @@ divide(6, 3)  # 2.0
 power(2, 3)  # 8
 ```
 
+## Command line
+
+```
+python -m trptc sum 2 3      # 5
+python -m trptc divide 7 2   # 3.5
+python -m trptc power 2 10   # 1024
+```
+
 ## Install
 
 ```
