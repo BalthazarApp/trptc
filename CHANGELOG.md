@@ -12,6 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `divide(a, b)` and `power(a, b)` functions.
 - GitHub Actions CI running pytest on Python 3.9–3.13.
 - Parametrized edge-case tests.
+- Command-line interface: `python -m trptc <operation> <a> <b>`.
+- Doctest examples in every function docstring.
+- Ruff linting in CI.
 
 ## [0.1.0] - 2026-10-16
 
