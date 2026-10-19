@@ -5,8 +5,6 @@ import sys
 
 import trptc
 
-OPERATIONS = ["sum", "multiply", "subtract", "divide", "power"]
-
 
 def number(value):
     """Parse value as int if it is an int literal, otherwise float."""
@@ -19,7 +17,7 @@ def number(value):
 def main(argv=None):
     """Run the operation on a and b and print the result."""
     parser = argparse.ArgumentParser(prog="trptc")
-    parser.add_argument("operation", choices=OPERATIONS)
+    parser.add_argument("operation", choices=trptc.__all__)
     parser.add_argument("a", type=number)
     parser.add_argument("b", type=number)
     args = parser.parse_args(argv)
