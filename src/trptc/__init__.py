@@ -1,6 +1,6 @@
-"""Sum, multiply and subtract two values."""
+"""Sum, multiply, subtract, divide and power two values."""
 
-__all__ = ["sum", "multiply", "subtract"]
+__all__ = ["sum", "multiply", "subtract", "divide", "power"]
 
 
 def sum(a, b):
@@ -16,3 +16,13 @@ def multiply(a, b):
 def subtract(a, b):
     """Return a - b."""
     return a - b
+
+
+def divide(a, b):
+    """Return a / b."""
+    return a / b
+
+
+def power(a, b):
+    """Return a ** b."""
+    return a ** b

@@ -1,4 +1,6 @@
-from trptc import multiply, subtract, sum
+import pytest
+
+from trptc import divide, multiply, power, subtract, sum
 
 
 def test_sum():
@@ -17,3 +19,16 @@ def test_subtract():
     assert subtract(5, 3) == 2
     assert subtract(-1, 1) == -2
     assert subtract(0.75, 0.25) == 0.5
+
+
+def test_divide():
+    assert divide(6, 3) == 2
+    assert divide(-4, 2) == -2
+    with pytest.raises(ZeroDivisionError):
+        divide(1, 0)
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
+    assert power(2, -1) == 0.5

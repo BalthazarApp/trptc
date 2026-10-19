@@ -1,7 +1,7 @@
 [project]
 name = "trptc"
 version = "0.1.0"
-description = "Sum, multiply and subtract two values."
+description = "Sum, multiply, subtract, divide and power two values."
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
